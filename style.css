@@ -362,11 +362,16 @@ small {
   .print__line li{
     line-height: 40px;
   }
+
   .content{
     word-wrap:break-word;
   }
   .print__none{
     display: none;
+  }
+  .content .details ol{
+    padding: 0 0 0 30px;
+    /* font-size: 12px; */
   }
   
 }
