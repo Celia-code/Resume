@@ -38,6 +38,7 @@ html {
 
 .side {
   min-height: 1450px;
+  height:1600px;
   background: var(--sidebar);
   position: absolute;
   top: 0;
@@ -296,11 +297,17 @@ a:hover:after {
   .wrapper {
     min-width: inherit;
     min-height: auto;
-    background: #fff;
+    background: #ffffff;
   }
+  .info .link_icon {
+    position: absolute;
+    right: 140px;
+    top: 410px;
+}
 
   .side {
     min-height: inherit;
+    height:1000px;
     background: var(--sidebar);
     /*color: inherit;*/
     position: inherit;
